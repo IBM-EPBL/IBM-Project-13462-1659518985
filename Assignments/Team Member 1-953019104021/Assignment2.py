@@ -6,7 +6,7 @@ while(True):
   print("current humidity:",humid,"%")
   temp_ref=37
   humid_ref=35
-  if temp>temp_ref andhumid<humid_ref:
+  if temp>temp_ref and humid<humid_ref:
      print("Sound alarm")
   else:
      print("Sound off")
